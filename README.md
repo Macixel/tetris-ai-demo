@@ -11,8 +11,8 @@
 
 | 文件 | 说明 |
 | --- | --- |
-| `tetris_ai.cpp` | AI 主程序（源文件为 **GBK** 编码，由原始 `相信.cpp` 改名而来） |
-| `README.md` | 项目说明（本文件） |
+| `tetris_ai.cpp` | AI 主程序 |
+| `README.md` | 项目说明 |
 | `.gitignore` | 忽略编译产物 |
 
 ## 方块编号约定
