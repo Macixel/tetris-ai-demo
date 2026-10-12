@@ -1,0 +1,15 @@
+# 编译产物
+*.exe
+*.o
+*.obj
+*.out
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# 系统文件
+Thumbs.db
+desktop.ini
