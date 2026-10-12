@@ -28,7 +28,7 @@ int main(void)
 	int sum = 0;
 	FILE *fp = fopen("3.txt", "r");
 	if (fp == NULL) {
-		fprintf(stderr, "[ERROR] cannot open input file: 3.txt\n");
+		fprintf(stderr, "[ERROR] cannot open input file: 3.txt (expected in the working directory)\n");
 		return 1;
 	}
 	//time_t program_start_time = time(NULL);
