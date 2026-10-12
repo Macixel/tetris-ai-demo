@@ -55,3 +55,6 @@ g++ -std=c++11 -O2 -finput-charset=GBK -o tetris.exe tetris_ai.cpp
 ```
 
 > 运行目录下必须存在 `3.txt`，否则程序无法读取局面。
+
+> 若缺少该文件，程序会向标准错误输出 `[ERROR] cannot open input file: 3.txt`，
+> 并以返回码 1 结束，而不会继续用空文件指针读取局面。

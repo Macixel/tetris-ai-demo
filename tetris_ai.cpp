@@ -1,6 +1,6 @@
 /*
 0:O
-1:L
+1:I
 2:Z
 3:S
 4:J
@@ -27,6 +27,10 @@ int main(void)
 	int x, y, x1, y1;
 	int sum = 0;
 	FILE *fp = fopen("3.txt", "r");
+	if (fp == NULL) {
+		fprintf(stderr, "[ERROR] cannot open input file: 3.txt (expected in the working directory)\n");
+		return 1;
+	}
 	//time_t program_start_time = time(NULL);
 	int timeout = 0;
 	char X, Y;
