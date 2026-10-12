@@ -4,6 +4,9 @@
 项目主体是一个 C 风格的 C++ 俄罗斯方块自动决策 AI：它读取当前局面，枚举「当前方块 × 下一方块」
 的所有落点组合，用启发式评分函数挑出最优解并输出落点。
 
+* 仓库所有者 / 评审者：[@Macixel](https://github.com/Macixel)
+* 贡献者：[@mmmacixel-hue](https://github.com/mmmacixel-hue)
+
 ## 文件说明
 
 | 文件 | 说明 |
